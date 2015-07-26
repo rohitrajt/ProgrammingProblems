@@ -1,6 +1,7 @@
 package com.rohit;
 
 import com.rohit.arrays.BinarySearch;
+import com.rohit.arrays.FirstNonRepeatedCharacter;
 
 public class Main {
 
@@ -10,8 +11,10 @@ public class Main {
 
 //        new Combination().printAllCombinations("wxyz");
 
-        int[] inputArray = {1, 2, 3, 4, 5, 6, 7, 8};
+//        int[] inputArray = {1, 2, 3, 4, 5, 6, 7, 8};
+//
+//        System.out.println(new BinarySearch().search(inputArray, 44));
 
-        System.out.println(new BinarySearch().search(inputArray, 44));
+        System.out.println(new FirstNonRepeatedCharacter().find("teeter"));
     }
 }
