@@ -2,6 +2,7 @@ package com.rohit;
 
 import com.rohit.arrays.BinarySearch;
 import com.rohit.arrays.FirstNonRepeatedCharacter;
+import com.rohit.string.StringConversions;
 
 public class Main {
 
@@ -15,6 +16,12 @@ public class Main {
 //
 //        System.out.println(new BinarySearch().search(inputArray, 44));
 
-        System.out.println(new FirstNonRepeatedCharacter().find("teeter"));
+//        System.out.println(new FirstNonRepeatedCharacter().find("teeter"));
+
+        int num = StringConversions.strToInt("-123");
+
+        System.out.println(num);
+
+        StringConversions.intToStr(-732);
     }
 }
