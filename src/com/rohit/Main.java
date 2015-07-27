@@ -18,10 +18,12 @@ public class Main {
 
 //        System.out.println(new FirstNonRepeatedCharacter().find("teeter"));
 
-        int num = StringConversions.strToInt("-123");
+//        int num = StringConversions.strToInt("-123");
+//
+//        System.out.println(num);
+//
+//        StringConversions.intToStr(-732);
 
-        System.out.println(num);
-
-        StringConversions.intToStr(-732);
+        System.out.println(new FibonacciNumbers().get(10));
     }
 }
