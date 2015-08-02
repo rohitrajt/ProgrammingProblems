@@ -2,6 +2,9 @@ package com.rohit;
 
 import com.rohit.arrays.BinarySearch;
 import com.rohit.arrays.FirstNonRepeatedCharacter;
+import com.rohit.arrays.Subsets;
+import com.rohit.string.Combination;
+import com.rohit.string.Palindrome;
 import com.rohit.string.StringConversions;
 
 public class Main {
@@ -10,7 +13,7 @@ public class Main {
 
 //        new Permutation().printAllPermutations("abcd");
 
-//        new Combination().printAllCombinations("wxyz");
+//        new Combination().printAllCombinations("123");
 
 //        int[] inputArray = {1, 2, 3, 4, 5, 6, 7, 8};
 //
@@ -24,6 +27,10 @@ public class Main {
 //
 //        StringConversions.intToStr(-732);
 
-        System.out.println(new FibonacciNumbers().get(10));
+//        System.out.println(new FibonacciNumbers().get(10));
+
+//        Subsets.subsetRecursive(new int[] {1, 2, 3});
+
+        System.out.println(Palindrome.isPalindrome(9988));
     }
 }
